@@ -13,6 +13,8 @@
 		073E280A248F2FA4008E905C /* PokemonInfoPanelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E2809248F2FA4008E905C /* PokemonInfoPanelHeader.swift */; };
 		0795FA682490734D003171D9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795FA672490734D003171D9 /* SettingView.swift */; };
 		0795FA6A24907535003171D9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795FA6924907535003171D9 /* Settings.swift */; };
+		0795FA6E24907F5B003171D9 /* SettingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795FA6D24907F5B003171D9 /* SettingRootView.swift */; };
+		0795FA7024908453003171D9 /* PokemonListRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795FA6F24908453003171D9 /* PokemonListRootView.swift */; };
 		07BDEA57248E3873008E3ABC /* ToolButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BDEA56248E3873008E3ABC /* ToolButtonModifier.swift */; };
 		07BDEA59248E4E31008E3ABC /* PokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BDEA58248E4E31008E3ABC /* PokemonList.swift */; };
 		07FDE167248DE5DD00B600EF /* PokemonInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDE166248DE5DD00B600EF /* PokemonInfoRow.swift */; };
@@ -102,6 +104,8 @@
 		073E2809248F2FA4008E905C /* PokemonInfoPanelHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoPanelHeader.swift; sourceTree = "<group>"; };
 		0795FA672490734D003171D9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		0795FA6924907535003171D9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0795FA6D24907F5B003171D9 /* SettingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRootView.swift; sourceTree = "<group>"; };
+		0795FA6F24908453003171D9 /* PokemonListRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListRootView.swift; sourceTree = "<group>"; };
 		07BDEA56248E3873008E3ABC /* ToolButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolButtonModifier.swift; sourceTree = "<group>"; };
 		07BDEA58248E4E31008E3ABC /* PokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonList.swift; sourceTree = "<group>"; };
 		07FDE166248DE5DD00B600EF /* PokemonInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoRow.swift; sourceTree = "<group>"; };
@@ -223,6 +227,7 @@
 			children = (
 				07FDE166248DE5DD00B600EF /* PokemonInfoRow.swift */,
 				07BDEA58248E4E31008E3ABC /* PokemonList.swift */,
+				0795FA6F24908453003171D9 /* PokemonListRootView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				0795FA672490734D003171D9 /* SettingView.swift */,
+				0795FA6D24907F5B003171D9 /* SettingRootView.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -552,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0795FA7024908453003171D9 /* PokemonListRootView.swift in Sources */,
 				D1320B1F23178614006F02A6 /* AppDelegate.swift in Sources */,
 				0795FA682490734D003171D9 /* SettingView.swift in Sources */,
 				D1320B1C23178614006F02A6 /* Ability.swift in Sources */,
@@ -567,6 +574,7 @@
 				D1320B1A23178614006F02A6 /* PokemonViewModel.swift in Sources */,
 				D1320AD823178614006F02A6 /* Helpers.swift in Sources */,
 				07BDEA57248E3873008E3ABC /* ToolButtonModifier.swift in Sources */,
+				0795FA6E24907F5B003171D9 /* SettingRootView.swift in Sources */,
 				073E280A248F2FA4008E905C /* PokemonInfoPanelHeader.swift in Sources */,
 				D1320B2223178614006F02A6 /* SceneDelegate.swift in Sources */,
 				07335B97248F3D030059414B /* BlurView.swift in Sources */,

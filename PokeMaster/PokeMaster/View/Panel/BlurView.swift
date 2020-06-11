@@ -17,7 +17,7 @@ struct BlurView: UIViewRepresentable {
     func makeUIView(
         context: UIViewRepresentableContext<BlurView>)
     -> UIView
-    {
+    {        
         let view = UIView(frame: .zero)
         view.backgroundColor = .clear
 

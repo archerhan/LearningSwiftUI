@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct PokemonInfoPanel: View {
+    
     let model: PokemonViewModel
     var abilities: [AbilityViewModel] {
         AbilityViewModel.sample(pokemonID: 1)
@@ -40,10 +41,10 @@ struct PokemonInfoPanel: View {
                 trailing: 30
             )
         )
-//        .background(Color.white)
-        .blurBackground(style: .systemMaterial)
-        .cornerRadius(20)
-        .fixedSize(horizontal: false, vertical: true)
+            //        .background(Color.white)
+            .blurBackground(style: .systemMaterial)
+            .cornerRadius(20)
+            .fixedSize(horizontal: false, vertical: true)
     }
     
 }
